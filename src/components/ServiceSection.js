@@ -5,8 +5,9 @@ export default function ServiceSection() {
     
     return (
         <section className='offered-services-section'>
-            <div>
-                <h2>Services Offered By Our Company</h2>
+            <div className='offered-services-section-title'>
+                <h2>What we do</h2>
+                <h1>Services Offered By Our Company</h1>
             </div>
             <hr />
 
@@ -23,7 +24,9 @@ export default function ServiceSection() {
                         just the things that are essential to maintaining a clean, comfortable home.
                         </p>
                     </div>
+                    <button className='more-info'>More info</button>
                 </div>
+
                 <div className='offered-services-card'>
                     <div className='offered-services-pictire'>
                         <img className='servise-image' src='./top-cleaning.png' />
@@ -36,30 +39,35 @@ export default function ServiceSection() {
                         but because we truly feel it is the standard of care that all homes should receive. 
                         </p>
                     </div>
+                    <button className='more-info'>More info</button>
                 </div>
+
                 <div className='offered-services-card'>
                     <div className='offered-services-pictire'>
                         <img className='servise-image' src='./diamant-cleaning.png' />
                     </div>
                     <div className='offered-services-text'>
                         <h3>Dimond Cleaning</h3>
-                        <p>DiamondCleaning is the ultimate luxury package in Home Care 
-                            and exclusively delivered by our company. Our Dimond option includes 
-                            not only all of Standard House Cleaning, 
+                        <p>DiamondCleaning is exclusively delivered by our company. 
+                            Our Dimond option includes not only all of Standard House Cleaning, 
                             but also an expanded list of chores to be done every time.</p>
                     </div>
+                    <button className='more-info'>More info</button>
                 </div>
+
                 <div className='offered-services-card'>
                     <div className='offered-services-pictire'>
-                        <img className='servise-image' src='./window-clean.png' />
+                        <img className='servise-image' src='./window-cleaning.png' />
                     </div>
                     <div className='offered-services-text'>
                         <h3>Window cleaning</h3>
-                        <p>We deliver professional window cleaning at fixed prices and with a quality 
-                            guarantee, so that you can spend your 
+                        <p> We deliver professional window cleaning at fixed prices and with a quality 
+                            guarantee and eco-friendly washing up liquids, so that you can spend your 
                             time and energy on things that are warmer around your heart.</p>
                     </div>
+                    <button className='more-info'>More info</button>
                 </div>
+                
             </div>
         </section>
     )

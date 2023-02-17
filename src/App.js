@@ -1,15 +1,13 @@
+import './App.css';
 import NavigationMenu from './components/NavigationMenu';
 import Footer from './components/Footer';
-import MainSection from './components/MainSection';
-import ServiceSection from './components/ServiceSection';
-import './App.css';
+import HomePage from './components/HomePage';
 
 function App() {
   return (
     <div className="App">
       <NavigationMenu></NavigationMenu>
-      <MainSection></MainSection>
-      <ServiceSection></ServiceSection>
+      <HomePage></HomePage>
       <Footer></Footer>
     </div>
 
